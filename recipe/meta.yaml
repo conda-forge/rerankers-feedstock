@@ -1,5 +1,5 @@
 {% set name = "rerankers" %}
-{% set version = "0.9.1.post1" %}
+{% set version = "0.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/rerankers-{{ version }}.tar.gz
-  sha256: 92b16b8b95e30f566122556cc7d15f17195ae0b3c3fc37f40129885db624fe86
+  sha256: b8e8b363abc4e9757151956949c27b197993c0a774437287a932f855afc17a73
 
 build:
   noarch: python
